@@ -1,0 +1,51 @@
+.logo{
+    height: 100%;
+    display: flex;
+    width: 70%;
+    justify-content: right;
+    align-items: center;
+}
+.navContainer {
+    display: flex;
+    height: 10%;
+}
+.navLink{
+    text-decoration: none;
+}
+.linkContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 30%;
+    justify-content: space-around;
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.App{
+    height: 100vh;
+}
+.homePageContainer{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coursesContainer{
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+
+}
+
+/*# sourceMappingURL=/src.7ed060e2.css.map */

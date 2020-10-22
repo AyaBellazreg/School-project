@@ -1,0 +1,29 @@
+{
+  "name": "schoolproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./public/index.html --open "
+  },
+  "keywords": [],
+  "author": "Eya Bellazreg",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "dependencies": {
+    "react-router-dom": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyaBellazreg/School-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AyaBellazreg/School-project/issues"
+  },
+  "homepage": "https://github.com/AyaBellazreg/School-project#readme",
+  "description": ""
+}

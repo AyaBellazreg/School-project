@@ -1,0 +1,21 @@
+.logo{
+    height: 100%;
+    display: flex;
+    width: 70%;
+    justify-content: right;
+    align-items: center;
+}
+.navContainer {
+    display: flex;
+    height: 10%;
+}
+.navLink{
+    text-decoration: none;
+}
+.linkContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 30%;
+    justify-content: space-around;
+}
