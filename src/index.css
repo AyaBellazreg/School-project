@@ -13,6 +13,7 @@ body {
     text-decoration: none;
     transition: .3s ease-in-out;
     border: none;
+    cursor: pointer;
 }
 .btn-red{
     background-color: #8e1414;

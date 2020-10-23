@@ -13,7 +13,7 @@ function HomePage() {
                     <div className="intro">
                         <h1>Lorem ipsum dolor</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ab voluptas, eos illo est veritatis eligendi, suscipit amet excepturi porro laudantium voluptatem.</p>
-                        <Link to="/courses" class="btn btn-red">Accéder Au Cours</Link>
+                        <Link to="/courses" className="btn btn-red">Accéder Au Cours</Link>
                     </div>
                     <div className="hero-img">
                         <img src={heroImage} alt="online-courses"/>

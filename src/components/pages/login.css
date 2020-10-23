@@ -1,11 +1,15 @@
 .form{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     margin-top:120px;
     height:100vh;
+}
+.form label, .form input{
+    display: block;
+    margin: 20px 0 0;
 }
 .form input[type="text"],.form input[type="password"]{
     padding: 10px 5px;
     outline: none;
-    margin: 20px 0 0;
+   
 }
