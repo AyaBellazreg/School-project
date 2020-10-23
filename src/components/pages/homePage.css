@@ -1,6 +1,52 @@
-.homePageContainer{
+/*.homePageContainer{
     height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
+}*/
+header{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+header .intro{
+ width: 50%;
+}
+header .intro p{
+    width: 80%;
+}
+header .hero-img{
+  width: 80%;
+  display: flex;
+ justify-content: center;
+}
+/*header .hero-img .clip-path{
+    width: 400px;
+    position: absolute;
+    height: 400px;
+    clip-path: circle(49.1% at 50% 51%);
+    background-color: #83ACEA;
+    top: 80px;
+    z-index: -999;
+    right: 20%;
+}*/
+
+.hero-img img{
+    max-width: 80%;
+    height: 50vh;
+}
+
+/* Qui sommes-nous */
+.quiSommes{
+    display: flex;
+    justify-content: space-between;
+}
+.quiSommes .box{
+    width: 50%;
+}
+.quiSommes .box p{
+    width: 80%;
+}
+.quiSommes .box img{
+    width: 100%;
 }

@@ -1,10 +1,14 @@
 import React from 'react'
-import './courses.css'
+import './courses.css';
+import NavBar from '../navBar/NavBar';
 
 function Courses() {
     return (
-        <div className= 'coursesContainer' >
-          Courses  
+        <div>
+            <NavBar />
+            <div className= 'coursesContainer' >
+            Courses  
+            </div>
         </div>
     )
 }
