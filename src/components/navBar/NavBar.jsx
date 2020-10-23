@@ -8,8 +8,9 @@ function NavBar() {
                 <img src = 'https://www.freelogodesign.org/Content/img/logo-colors-meanings/logos-oranges/logo-fld04.svg' height = '60' width = '200' />
             </div>
             <div className = 'linkContainer' >
-              <Link to = "/courses" className = 'navLink' >Les cours</Link>
               <Link to = "/" className ='navLink' >Acceuil</Link>
+              <Link to = "/" className ='navLink' >Qui Sommes-nous?</Link>
+              <Link to = "/courses" className = 'navLink' >Les Cours</Link>
             </div>
         </div>
     )
