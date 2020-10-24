@@ -1,21 +1,18 @@
-.logo{
-    height: 100%;
-    display: flex;
-    width: 70%;
-    justify-content: right;
-    align-items: center;
-}
 .navContainer {
     display: flex;
     height: 10%;
 }
-.navLink{
-    text-decoration: none;
+.logo{
+    height: 100%;
+    width: 70%;
 }
 .linkContainer{
     display: flex;
-    flex-direction: row-reverse;
     align-items: center;
+    justify-content: space-between;
     width: 30%;
-    justify-content: space-around;
+}
+.navLink{
+    text-decoration: none;
+    color: #000;
 }

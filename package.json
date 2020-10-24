@@ -10,11 +10,15 @@
   "author": "Eya Bellazreg",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-react": "^7.12.1",
     "parcel-bundler": "^1.12.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "react-hook-form": "^6.9.5",
     "react-router-dom": "^5.2.0"
   },
   "repository": {
