@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Redirect, useHistory } from 'react-router-dom';
+import {useStateValue} from '../../Context'
 import './login.css'
 
 function Login () {
@@ -9,19 +10,22 @@ function Login () {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const[errors, setErrors] = useState('');
+    const{_addToStorage , hasToken} = useStateValue()
+
+    console.log(hasToken , 'tokens')
+    console.log(email)
 
     //set correct email and password
     const emailOrigin = "hamouda@gmail.com";
     const passOrigin = "123456";
 
-    var auth = false;
 
     const handleSubmit = (e)=>{
         e.preventDefault();
         if(email == emailOrigin && password == passOrigin)
           { 
-           auth = true;
-           history.push('/dashboard');
+            _addToStorage()
+            console.log('ff')
            
           }
         else

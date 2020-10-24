@@ -6,10 +6,16 @@ import Courses from './components/pages/Courses';
 import Footer from './components/footer/Footer';
 import Login from './components/pages/Login';
 import Dashboard from './components/pages/Dashboard';
+import { ContextProvider } from './Context';
+import "@babel/polyfill";
+
+
 
 function App() {
   return (
     <div className='App'>
+    <ContextProvider>
+    
       <div className="main-container">
         <Router>
           <Route exact path='/' component={HomePage} />
@@ -19,6 +25,7 @@ function App() {
         </Router>
       </div>
       <Footer />
+    </ContextProvider>
     </div>
   );
 }
