@@ -13,7 +13,6 @@ function Login () {
     const{_addToStorage , hasToken} = useStateValue()
 
     console.log(hasToken , 'tokens')
-    console.log(email)
 
     //set correct email and password
     const emailOrigin = "hamouda@gmail.com";
@@ -25,7 +24,7 @@ function Login () {
         if(email == emailOrigin && password == passOrigin)
           { 
             _addToStorage()
-            console.log('ff')
+            history.push('/dashboard')
            
           }
         else

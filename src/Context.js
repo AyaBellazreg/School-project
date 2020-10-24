@@ -14,6 +14,7 @@ export const ContextProvider = ({children})=>{
         _getData()
     } , [])
 
+
     const _getData = async =>{
         try{
             const token = storage.getItem('hasToken')
@@ -21,15 +22,18 @@ export const ContextProvider = ({children})=>{
                 setHasToken(JSON.parse(token))
                 setLoading(false)
             }
-        }catch(err){
+            setLoading(false)
+        }
+        catch(err){
             setError((prevState)=>({...prevState , getDataError : err}))
         }
     }
 
     const _addToStorage =  async ()=>{
         try {
-         storage.setItem('hasToken' , JSON.stringify(hasToken))
             setHasToken(true)
+            console.log(hasToken , 'token from context')
+            storage.setItem('hasToken' , JSON.stringify(true))
         }catch(error){
                 setError(error)
         }
